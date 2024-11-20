@@ -30,5 +30,16 @@ public class PersonApp {
 
         //call method
         person2.sayHello(person2.name);
+
+        var person3 = new Person("Jonnychan","Street 15");
+        System.out.println(person3.name);
+        System.out.println(person3.address);
+        System.out.println(person3.country);
+        person3.sayHello(person3.name);
+
+        var person4 = new Person("yanto","Street 99","");
+        System.out.println(person4.name);
+        System.out.println(person4.address);
+        person4.sayHello(person4.name);
     }
 }
